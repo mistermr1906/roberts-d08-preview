@@ -1,43 +1,18 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Robert · Portfolio Diagrams</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>robertsPortfolio — diagrams</title>
 <style>
-  :root{--bg:#161615;--panel:#1f1f1e;--line:#2e2e2c;--ink:#e9e9e6;--dim:#9a9a93;--accent:#D2EF15}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);
-    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  header{max-width:1080px;margin:0 auto;padding:64px 28px 8px}
-  header h1{margin:0;font-size:30px;font-weight:650;letter-spacing:-.01em}
-  header p{margin:10px 0 0;color:var(--dim);max-width:640px}
-  .dot{color:var(--accent)}
-  main{max-width:1080px;margin:0 auto;padding:24px 28px 80px}
-  .chapter{border-top:1px solid var(--line);padding:38px 0}
-  .chead{display:flex;align-items:baseline;gap:14px;margin-bottom:22px;flex-wrap:wrap}
-  .code{color:var(--dim);font-variant-numeric:tabular-nums;font-size:14px;letter-spacing:.08em}
-  .title{font-size:20px;font-weight:600}
-  .chip{font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
-  .chip.locked{color:#1a1a18;background:var(--accent);font-weight:600}
-  .chip.wip{color:var(--dim);border:1px solid var(--line)}
-  .pair{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-  figure{margin:0}
-  .fig{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel)}
-  .fig svg{display:block;width:100%;height:auto}
-  figcaption{margin-top:10px;color:var(--dim);font-size:13px;letter-spacing:.03em}
-  footer{max-width:1080px;margin:0 auto;padding:0 28px 60px;color:var(--dim);font-size:13px}
-  @media(max-width:680px){.pair{grid-template-columns:1fr}}
-</style></head>
-<body>
-  <header>
-    <h1>Portfolio Diagrams<span class="dot"> ·</span></h1>
-    <p>Abstract chapter emblems — each in two styles: <strong>A</strong> a fine line on dark,
-       <strong>B</strong> a soft mass on pale. Mono + one lime accent. Chapters marked
-       <em>locked</em> are final; the rest are earlier drafts being rebuilt into the current style.</p>
-  </header>
-  <main>
-    <section class="chapter">
-      <div class="chead"><span class="code">D01</span><span class="title">Information Architecture</span><span class="chip locked">locked</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+ body{margin:0;background:#0f0f0e;color:#cfcfca;font:14px/1.4 -apple-system,Helvetica,Arial,sans-serif}
+ header{padding:28px 32px 6px} header h1{margin:0;font-weight:600;font-size:18px}
+ header p{margin:4px 0 0;color:#8a8a86}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;padding:24px 32px 48px}
+ figure{margin:0;background:#161614;border:1px solid #2a2a27;border-radius:10px;overflow:hidden}
+ .fig{aspect-ratio:1/1} .fig svg{width:100%;height:100%;display:block}
+ figcaption{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;
+   border-top:1px solid #2a2a27;font-size:13px;color:#c9c9c4}
+ figcaption span{color:#7e817f;font-size:11px;letter-spacing:.04em}
+</style></head><body>
+<header><h1>robertsPortfolio — all diagrams</h1>
+<p>Browser-rendered, full &amp; uncropped. Resize the window to test legibility at any size.</p></header>
+<div class="grid"><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -107,8 +82,7 @@
 </g>
 <circle cx="600.00" cy="393.00" r="8.00" fill="#1A1A18"/>
 <circle cx="600.00" cy="393.00" r="5.50" fill="#D2EF15"/>
-</svg></div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption>D01 · Information Architecture<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g fill="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision">
   <path d="M 600.00,526.40 L 898.78,698.90" stroke="#7B7976" stroke-width="2.60" stroke-opacity="0.32"/>
@@ -176,13 +150,7 @@
 </g>
 <circle cx="600.00" cy="393.00" r="8.00" fill="#C6C4BE"/>
 <circle cx="600.00" cy="393.00" r="5.50" fill="#D2EF15"/>
-</svg></div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D02</span><span class="title">Motion Design</span><span class="chip wip">to be rebuilt</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption>D01 · Information Architecture<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D02 · Motion Design · "Onion-Skin Bounce Arc" · Family A (Dark Technical)
      Brief: briefs/d02-motion-design.md · Lock: style-lock-dark-technical.md (LOCKED 2026-06-07)
      Tokens: ground #1A1A18+grain · line #C9C9C4 · dim #7A7A74 · stroke 2 · NO ACCENT (set budget).
@@ -220,8 +188,7 @@
   </g>
   </g>
 </svg>
-</div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D02 · Motion Design<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!--     AMENDED 2026-06-07 (mono+lime): all colour hues removed by user decision — neutral grey system. 
  D02 · Motion Design · "Onion-Skin Bounce Arc" · Family B (Muted Tonal, warm grey slot 2)
      Brief: briefs/d02-motion-design.md · Lock: style-lock-muted-tonal.md (LOCKED 2026-06-07)
@@ -255,13 +222,7 @@
   </g>
   </g>
 </svg>
-</div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D03</span><span class="title">UX Design</span><span class="chip locked">locked</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D02 · Motion Design<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -323,8 +284,7 @@
 <circle cx="560.0" cy="632.0" r="15" fill="none" stroke="#94979d" stroke-width="1.3"/>
 <circle cx="560.0" cy="632.0" r="9" fill="#D2EF15"/>
 </svg>
-</div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D03 · UX Design<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g stroke="#7B7976" stroke-opacity="0.42" stroke-width="2.6" fill="none" stroke-linecap="round">
   <line x1="560.0" y1="292.0" x2="665.1" y2="955.4"/>
@@ -384,13 +344,7 @@
 <circle cx="560.0" cy="632.0" r="16" fill="#C6C4BE"/>
 <circle cx="560.0" cy="632.0" r="9" fill="#D2EF15"/>
 </svg>
-</div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D04</span><span class="title">Web Development</span><span class="chip wip">to be rebuilt</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D03 · UX Design<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D04 · Web Development · "Stack of Rendering Layers" · Family A (Dark Technical)
      Brief: briefs/d04-web-development.md (geometry §5) · Locks LOCKED 2026-06-07
      Tokens: ground #1A1A18+grain · line #C9C9C4 · dim #7A7A74 · stroke 2 · dash-built bars (lock J)
@@ -414,8 +368,7 @@
   </g>
   <circle cx="600" cy="302" r="10" fill="#D2EF15"/>
 </svg>
-</div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D04 · Web Development<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D04 · Web Development · Family B (MASS) PALE — PROVISIONAL DEFAULT ("glass sheets").
      This is the lower-risk of TWO candidates pending ROBERT's final choice
      (see candidates/d04-b/README.md; the other is the "occluding" variant). Swap the
@@ -448,13 +401,7 @@
   <circle cx="600" cy="302" r="14" fill="#C6C4BE"/>
   <circle cx="600" cy="302" r="9" fill="#D2EF15"/>
 </svg>
-</div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D05</span><span class="title">Web Conversion</span><span class="chip wip">to be rebuilt</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D04 · Web Development<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D05 · Web Conversion · "Funnel Stack to Single Dot" · Family A (Dark Technical)
      Brief: briefs/d05-web-conversion.md · Lock LOCKED 2026-06-07
      Tokens: ground #1A1A18+grain · #C9C9C4 · dim #7A7A74 · accent #D2EF15
@@ -489,8 +436,7 @@
   <!-- THE accent: the one that converted -->
   <circle cx="600" cy="880" r="11" fill="#D2EF15"/>
 </svg>
-</div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D05 · Web Conversion<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!--     AMENDED 2026-06-07 (mono+lime): all colour hues removed by user decision — neutral grey system. 
  D05 · Web Conversion · "Funnel Stack to Single Dot" · Family B (Muted Tonal, terracotta slot 5)
      Brief: briefs/d05-web-conversion.md · Lock LOCKED 2026-06-07
@@ -513,13 +459,7 @@
   <!-- THE accent: the one that converted -->
   <circle cx="600" cy="880" r="11" fill="#D2EF15"/>
 </svg>
-</div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D06</span><span class="title">Branding</span><span class="chip wip">to be rebuilt</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D05 · Web Conversion<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D06 · Branding · "The Branding Iron Mark" · Family A (Dark Technical) · glyph G1
      Brief: briefs/d06-branding.md · Post-AM-1 mono+lime · Locks LOCKED 2026-06-07
      Outer circle r350 hairline · 4 crop ticks 45° r358-390 · impression rings r115/r150 dim
@@ -534,8 +474,7 @@
   </g>
   <g fill="#D2EF15"><path d="M600,530 A70,70 0 0 0 600,670 Z"/><path d="M612,535 L678,600 L612,665 Z"/></g>
 </svg>
-</div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D06 · Branding<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D06 · Branding · Family B (Muted Tonal, mono per AM-1) · glyph G1
      ground #C6C4BE · lines #7B7976 4px · glyph LIME. Brief: briefs/d06-branding.md -->
   <rect width="1200" height="1200" fill="#C6C4BE"/>
@@ -546,20 +485,7 @@
   </g>
   <g fill="#D2EF15"><path d="M600,530 A70,70 0 0 0 600,670 Z"/><path d="M612,535 L678,600 L612,665 Z"/></g>
 </svg>
-</div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D07</span><span class="title">UI Design</span><span class="chip wip">to be rebuilt</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer></filter><pattern id="dHi" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.0" fill="#C9C9C4" fill-opacity="0.58"/></pattern><pattern id="dMd" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="0.95" fill="#C9C9C4" fill-opacity="0.36"/></pattern><pattern id="dLo" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.6" cy="1.6" r="0.9" fill="#C9C9C4" fill-opacity="0.22"/></pattern></defs><rect width="1200" height="1200" fill="#1A1A18"/><rect width="1200" height="1200" filter="url(#g)"/><line x1="325" y1="265" x2="325" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="435" y1="265" x2="435" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="545" y1="265" x2="545" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="655" y1="265" x2="655" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="765" y1="265" x2="765" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="875" y1="265" x2="875" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="340" x2="945" y2="340" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="450" x2="945" y2="450" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="560" x2="945" y2="560" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="670" x2="945" y2="670" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="780" x2="945" y2="780" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="285" y1="300" x2="305" y2="300" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="300" x2="285" y2="320" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="300" x2="895" y2="300" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="300" x2="915" y2="320" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="820" x2="305" y2="820" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="820" x2="285" y2="800" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="820" x2="895" y2="820" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="820" x2="915" y2="800" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="294" x2="285" y2="272" stroke="#C9C9C4" stroke-width="1" stroke-opacity="0.3"/><line x1="365" y1="294" x2="365" y2="272" stroke="#C9C9C4" stroke-width="1" stroke-opacity="0.3"/><line x1="285" y1="278" x2="365" y2="278" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.45"/><line x1="281" y1="274" x2="289" y2="282" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.45"/><line x1="361" y1="274" x2="369" y2="282" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.45"/><line x1="765" y1="274" x2="765" y2="846" stroke="#C9C9C4" stroke-width="0.9" stroke-opacity="0.15"/><line x1="259" y1="670" x2="941" y2="670" stroke="#C9C9C4" stroke-width="0.9" stroke-opacity="0.15"/><rect x="285" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.24"/><rect x="395" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.27"/><rect x="505" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.31"/><rect x="615" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.34"/><rect x="725" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.38"/><rect x="835" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.41"/><rect x="285" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.26"/><rect x="395" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.29"/><rect x="506" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.33"/><rect x="616" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="615" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.36"/><rect x="726" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="725" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.39"/><rect x="836" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="835" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.43"/><rect x="285" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.28"/><rect x="395" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.31"/><rect x="506" y="521" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.34"/><rect x="616" y="521" width="78" height="78" fill="url(#dMd)"/><rect x="615" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.38"/><rect x="726" y="521" width="78" height="78" fill="url(#dMd)"/><rect x="725" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.41"/><rect x="836" y="521" width="78" height="78" fill="url(#dMd)"/><rect x="835" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.45"/><rect x="285" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.29"/><rect x="395" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.33"/><rect x="506" y="631" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.36"/><rect x="616" y="631" width="78" height="78" fill="url(#dMd)"/><rect x="615" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.40"/><rect x="836" y="631" width="78" height="78" fill="url(#dMd)"/><rect x="835" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.46"/><rect x="285" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.31"/><rect x="395" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.35"/><rect x="506" y="741" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.38"/><rect x="616" y="741" width="78" height="78" fill="url(#dMd)"/><rect x="615" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.41"/><rect x="726" y="741" width="78" height="78" fill="url(#dMd)"/><rect x="725" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.45"/><rect x="836" y="741" width="78" height="78" fill="url(#dMd)"/><rect x="835" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.48"/><rect x="726" y="631" width="78" height="78" fill="url(#dHi)"/><line x1="754" y1="670" x2="776" y2="670" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.5"/><line x1="765" y1="659" x2="765" y2="681" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.5"/><rect x="725" y="630" width="80" height="80" fill="none" stroke="#D2EF15" stroke-width="2"/><line x1="717" y1="622" x2="704" y2="622" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="717" y1="622" x2="717" y2="609" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="622" x2="826" y2="622" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="622" x2="813" y2="609" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="717" y1="718" x2="704" y2="718" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="717" y1="718" x2="717" y2="731" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="718" x2="826" y2="718" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="718" x2="813" y2="731" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="725" y1="744" x2="805" y2="744" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.55"/><line x1="720" y1="739" x2="730" y2="749" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.55"/><line x1="800" y1="739" x2="810" y2="749" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.55"/></svg></div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer></filter><pattern id="dHi" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.0" fill="#C6C4BE" fill-opacity="0.85"/></pattern></defs><rect width="1200" height="1200" fill="#C6C4BE"/><line x1="765" y1="280" x2="765" y2="840" stroke="#7B7976" stroke-width="2" stroke-opacity="0.3"/><line x1="265" y1="670" x2="935" y2="670" stroke="#7B7976" stroke-width="2" stroke-opacity="0.3"/><rect x="285" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="615" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="725" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="835" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="285" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="725" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="835" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="285" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="725" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="835" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="285" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="835" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="285" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="725" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="835" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="725" y="630" width="80" height="80" fill="#7B7976" fill-opacity="1.0"/><rect x="726" y="631" width="78" height="78" fill="url(#dHi)"/><rect x="725" y="706" width="80" height="4" fill="#D2EF15"/></svg></div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-    <section class="chapter">
-      <div class="chead"><span class="code">D08</span><span class="title">Business Strategy</span><span class="chip locked">locked</span></div>
-      <div class="pair">
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</div><figcaption>D06 · Branding<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer></filter><pattern id="dHi" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.0" fill="#C9C9C4" fill-opacity="0.58"/></pattern><pattern id="dMd" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="1.4" cy="1.4" r="0.95" fill="#C9C9C4" fill-opacity="0.36"/></pattern><pattern id="dLo" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.6" cy="1.6" r="0.9" fill="#C9C9C4" fill-opacity="0.22"/></pattern></defs><rect width="1200" height="1200" fill="#1A1A18"/><rect width="1200" height="1200" filter="url(#g)"/><line x1="325" y1="265" x2="325" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="435" y1="265" x2="435" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="545" y1="265" x2="545" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="655" y1="265" x2="655" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="765" y1="265" x2="765" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="875" y1="265" x2="875" y2="850" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="340" x2="945" y2="340" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="450" x2="945" y2="450" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="560" x2="945" y2="560" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="670" x2="945" y2="670" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="250" y1="780" x2="945" y2="780" stroke="#C9C9C4" stroke-width="0.7" stroke-opacity="0.055"/><line x1="285" y1="300" x2="305" y2="300" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="300" x2="285" y2="320" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="300" x2="895" y2="300" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="300" x2="915" y2="320" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="820" x2="305" y2="820" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="820" x2="285" y2="800" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="820" x2="895" y2="820" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="915" y1="820" x2="915" y2="800" stroke="#C9C9C4" stroke-width="1.1" stroke-opacity="0.38"/><line x1="285" y1="294" x2="285" y2="272" stroke="#C9C9C4" stroke-width="1" stroke-opacity="0.3"/><line x1="365" y1="294" x2="365" y2="272" stroke="#C9C9C4" stroke-width="1" stroke-opacity="0.3"/><line x1="285" y1="278" x2="365" y2="278" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.45"/><line x1="281" y1="274" x2="289" y2="282" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.45"/><line x1="361" y1="274" x2="369" y2="282" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.45"/><line x1="765" y1="274" x2="765" y2="846" stroke="#C9C9C4" stroke-width="0.9" stroke-opacity="0.15"/><line x1="259" y1="670" x2="941" y2="670" stroke="#C9C9C4" stroke-width="0.9" stroke-opacity="0.15"/><rect x="285" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.24"/><rect x="395" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.27"/><rect x="505" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.31"/><rect x="615" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.34"/><rect x="725" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.38"/><rect x="835" y="300" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.41"/><rect x="285" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.26"/><rect x="395" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.29"/><rect x="506" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.33"/><rect x="616" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="615" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.36"/><rect x="726" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="725" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.39"/><rect x="836" y="411" width="78" height="78" fill="url(#dLo)"/><rect x="835" y="410" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.43"/><rect x="285" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.28"/><rect x="395" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.31"/><rect x="506" y="521" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.34"/><rect x="616" y="521" width="78" height="78" fill="url(#dMd)"/><rect x="615" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.38"/><rect x="726" y="521" width="78" height="78" fill="url(#dMd)"/><rect x="725" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.41"/><rect x="836" y="521" width="78" height="78" fill="url(#dMd)"/><rect x="835" y="520" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.45"/><rect x="285" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.29"/><rect x="395" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.33"/><rect x="506" y="631" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.36"/><rect x="616" y="631" width="78" height="78" fill="url(#dMd)"/><rect x="615" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.40"/><rect x="836" y="631" width="78" height="78" fill="url(#dMd)"/><rect x="835" y="630" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.46"/><rect x="285" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.31"/><rect x="395" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.35"/><rect x="506" y="741" width="78" height="78" fill="url(#dLo)"/><rect x="505" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.38"/><rect x="616" y="741" width="78" height="78" fill="url(#dMd)"/><rect x="615" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.41"/><rect x="726" y="741" width="78" height="78" fill="url(#dMd)"/><rect x="725" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.45"/><rect x="836" y="741" width="78" height="78" fill="url(#dMd)"/><rect x="835" y="740" width="80" height="80" fill="none" stroke="#C9C9C4" stroke-width="1.6" stroke-opacity="0.48"/><rect x="726" y="631" width="78" height="78" fill="url(#dHi)"/><line x1="754" y1="670" x2="776" y2="670" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.5"/><line x1="765" y1="659" x2="765" y2="681" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.5"/><rect x="725" y="630" width="80" height="80" fill="none" stroke="#D2EF15" stroke-width="2"/><line x1="717" y1="622" x2="704" y2="622" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="717" y1="622" x2="717" y2="609" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="622" x2="826" y2="622" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="622" x2="813" y2="609" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="717" y1="718" x2="704" y2="718" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="717" y1="718" x2="717" y2="731" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="718" x2="826" y2="718" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="813" y1="718" x2="813" y2="731" stroke="#C9C9C4" stroke-width="1.3" stroke-opacity="0.85"/><line x1="725" y1="744" x2="805" y2="744" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.55"/><line x1="720" y1="739" x2="730" y2="749" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.55"/><line x1="800" y1="739" x2="810" y2="749" stroke="#C9C9C4" stroke-width="1.2" stroke-opacity="0.55"/></svg></div><figcaption>D07 · UI Design<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer></filter><pattern id="dHi" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.0" fill="#C6C4BE" fill-opacity="0.85"/></pattern></defs><rect width="1200" height="1200" fill="#C6C4BE"/><line x1="765" y1="280" x2="765" y2="840" stroke="#7B7976" stroke-width="2" stroke-opacity="0.3"/><line x1="265" y1="670" x2="935" y2="670" stroke="#7B7976" stroke-width="2" stroke-opacity="0.3"/><rect x="285" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="615" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="725" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="835" y="300" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="285" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="725" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="835" y="410" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="285" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="725" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="835" y="520" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="285" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="835" y="630" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="285" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.16"/><rect x="395" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.26"/><rect x="505" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.40"/><rect x="615" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="725" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="835" y="740" width="80" height="80" fill="#7B7976" fill-opacity="0.60"/><rect x="725" y="630" width="80" height="80" fill="#7B7976" fill-opacity="1.0"/><rect x="726" y="631" width="78" height="78" fill="url(#dHi)"/><rect x="725" y="706" width="80" height="4" fill="#D2EF15"/></svg></div><figcaption>D07 · UI Design<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -1193,8 +1119,7 @@
 <circle cx="279.57" cy="785.00" r="33.00"/>
 <circle cx="920.43" cy="785.00" r="33.00"/>
 </g>
-</svg></div><figcaption>Family A · dark line</figcaption></figure>
-        <figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption>D08 · Business Strategy<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g stroke="#7B7976" stroke-opacity="0.5" stroke-width="2.60" stroke-linecap="butt" stroke-linejoin="miter" fill="none" shape-rendering="geometricPrecision">
   <line x1="580.00" y1="264.64" x2="299.57" y2="750.36"/>
@@ -1826,9 +1751,5 @@
   <circle cx="279.57" cy="785.00" r="33.00"/>
   <circle cx="920.43" cy="785.00" r="33.00"/>
 </g>
-</svg></div><figcaption>Family B · pale mass</figcaption></figure>
-      </div>
-    </section>
-  </main>
-  <footer>8 chapters shown · 3 locked in the current style · more in progress.</footer>
+</svg></div><figcaption>D08 · Business Strategy<span>B</span></figcaption></figure></div>
 </body></html>
