@@ -17,6 +17,7 @@ CHAPTERS = [
     ("d06-branding",                "D06 · Branding"),
     ("d07-ui-design",               "D07 · UI Design"),
     ("d08-business-strategy",       "D08 · Business Strategy"),
+    ("d09-web-copywriting",         "D09 · Web Copywriting"),
 ]
 
 HEAD = ('<!doctype html><html><head><meta charset="utf-8">'
