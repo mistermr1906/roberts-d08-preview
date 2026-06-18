@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<!--     AMENDED 2026-06-07 (mono+lime): all colour hues removed by user decision — neutral grey system. 
+ D02 · Motion Design · "Onion-Skin Bounce Arc" · Family B (Muted Tonal, warm grey slot 2)
+     Brief: briefs/d02-motion-design.md · Lock: style-lock-muted-tonal.md (LOCKED 2026-06-07)
+     Tokens: ground #C6C4BE (dg-b-ground-warmgrey) · shapes #7B7976 (−30%L) · NO ACCENT.
+     Opacity ladder (lock K) extended along the ramp: frames .25→1.0, arc 4px at .4.
+     Geometry identical to family A file (brief §5). Flat discs, no outlines. -->
+  <rect width="1200" height="1200" fill="#C6C4BE"/>
+
+  <g transform="translate(85,-75)"><!-- recenter rev2: ink bbox was low-left -->
+  <!-- trajectory as thin tonal line -->
+  <g stroke="#7B7976" stroke-width="4" opacity="0.4" fill="none">
+    <path d="M200,760 Q380,360 560,760"/>
+    <path d="M560,760 Q690,520 820,760"/>
+  </g>
+
+  <!-- contact ticks (thin connector grammar) -->
+  <g stroke="#7B7976" stroke-width="4" stroke-linecap="round">
+    <line x1="188" y1="776" x2="188" y2="796"/><line x1="212" y1="776" x2="212" y2="796"/>
+    <line x1="548" y1="776" x2="548" y2="796"/><line x1="572" y1="776" x2="572" y2="796"/>
+  </g>
+
+  <!-- onion-skin frames: flat discs, ramp to solid -->
+  <g fill="#7B7976">
+    <circle cx="265" cy="642" r="26" opacity="0.25"/>
+    <circle cx="362" cy="562" r="26" opacity="0.35"/>
+    <circle cx="398" cy="562" r="26" opacity="0.45"/>
+    <circle cx="495" cy="642" r="26" opacity="0.55"/>
+    <circle cx="638" cy="659" r="26" opacity="0.65"/>
+    <circle cx="703" cy="641" r="26" opacity="0.8"/>
+    <circle cx="781" cy="699" r="26"/>
+  </g>
+  </g>
+</svg>

@@ -35,7 +35,8 @@ HEAD = ('<!doctype html><html><head><meta charset="utf-8">'
         ' figcaption span{color:#7e817f;font-size:11px;letter-spacing:.04em}\n'
         '</style></head><body>\n'
         '<header><h1>robertsPortfolio — all diagrams</h1>\n'
-        '<p>Browser-rendered, full &amp; uncropped. Resize the window to test legibility at any size.</p></header>\n'
+        '<p>Browser-rendered, full &amp; uncropped. Resize the window to test legibility at any size.</p>\n'
+        '<p style="margin-top:10px"><a href="downloads.html" style="color:#D2EF15">&#8595; Download the SVG files &rarr;</a></p></header>\n'
         '<div class="grid">')
 
 

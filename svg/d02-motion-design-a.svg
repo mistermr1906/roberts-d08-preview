@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<!-- D02 · Motion Design · "Onion-Skin Bounce Arc" · Family A (Dark Technical)
+     Brief: briefs/d02-motion-design.md · Lock: style-lock-dark-technical.md (LOCKED 2026-06-07)
+     Tokens: ground #1A1A18+grain · line #C9C9C4 · dim #7A7A74 · stroke 2 · NO ACCENT (set budget).
+     Geometry: arcs M200,760 Q380,360 560,760 + M560,760 Q690,520 820,760 (dashed dim = reference)
+     · 7 frames r26 at easing spacing, opacity ramp .25→.8, final frame opacity 1 + inner ring r12
+     (density emphasis — lock F bans non-accent fills, deviation cited in brief §8)
+     · contact tick pairs at x=200 and x=560, y 776-796. -->
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
+  <rect width="1200" height="1200" fill="#1A1A18"/>
+  <rect width="1200" height="1200" filter="url(#grain)"/>
+
+  <g transform="translate(85,-75)"><!-- recenter rev2: ink bbox was low-left -->
+  <!-- reference trajectory (dash = ghost/reference) -->
+  <g stroke="#7A7A74" stroke-width="2" stroke-dasharray="6 6" fill="none">
+    <path d="M200,760 Q380,360 560,760"/>
+    <path d="M560,760 Q690,520 820,760"/>
+  </g>
+
+  <!-- contact ticks -->
+  <g stroke="#C9C9C4" stroke-width="2" stroke-linecap="round">
+    <line x1="188" y1="776" x2="188" y2="796"/><line x1="212" y1="776" x2="212" y2="796"/>
+    <line x1="548" y1="776" x2="548" y2="796"/><line x1="572" y1="776" x2="572" y2="796"/>
+  </g>
+
+  <!-- onion-skin frames: ramp .25/.35/.45/.55/.65/.8, final 1.0 + inner ring -->
+  <g stroke="#C9C9C4" stroke-width="2" fill="none">
+    <circle cx="265" cy="642" r="26" opacity="0.25"/>
+    <circle cx="362" cy="562" r="26" opacity="0.35"/>
+    <circle cx="398" cy="562" r="26" opacity="0.45"/>
+    <circle cx="495" cy="642" r="26" opacity="0.55"/>
+    <circle cx="638" cy="659" r="26" opacity="0.65"/>
+    <circle cx="703" cy="641" r="26" opacity="0.8"/>
+    <circle cx="781" cy="699" r="26"/>
+    <circle cx="781" cy="699" r="12"/>
+  </g>
+  </g>
+</svg>

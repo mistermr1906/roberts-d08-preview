@@ -1,18 +1,25 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>robertsPortfolio — diagrams</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JR Design Portfolio — diagram downloads</title>
 <style>
- body{margin:0;background:#0f0f0e;color:#cfcfca;font:14px/1.4 -apple-system,Helvetica,Arial,sans-serif}
- header{padding:28px 32px 6px} header h1{margin:0;font-weight:600;font-size:18px}
- header p{margin:4px 0 0;color:#8a8a86}
- .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;padding:24px 32px 48px}
+ body{margin:0;background:#0f0f0e;color:#cfcfca;font:14px/1.5 -apple-system,Helvetica,Arial,sans-serif}
+ header{padding:34px 32px 8px} header h1{margin:0;font-weight:600;font-size:20px}
+ header p{margin:6px 0 0;color:#8a8a86;max-width:60ch}
+ .all{display:inline-block;margin:16px 0 4px;padding:11px 18px;background:#D2EF15;color:#15150f;
+   text-decoration:none;border-radius:8px;font-weight:600;font-size:13px}
+ .all:hover{filter:brightness(1.06)}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;padding:24px 32px 56px}
  figure{margin:0;background:#161614;border:1px solid #2a2a27;border-radius:10px;overflow:hidden}
  .fig{aspect-ratio:1/1} .fig svg{width:100%;height:100%;display:block}
- figcaption{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;
+ figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 14px;
    border-top:1px solid #2a2a27;font-size:13px;color:#c9c9c4}
- figcaption span{color:#7e817f;font-size:11px;letter-spacing:.04em}
+ .meta{display:flex;flex-direction:column} .meta span{color:#7e817f;font-size:11px;letter-spacing:.04em}
+ .dl{flex:none;padding:7px 13px;border:1px solid #3a3a36;border-radius:7px;color:#dcdcd6;
+   text-decoration:none;font-size:12px;white-space:nowrap}
+ .dl:hover{border-color:#D2EF15;color:#fff}
 </style></head><body>
-<header><h1>robertsPortfolio — all diagrams</h1>
-<p>Browser-rendered, full &amp; uncropped. Resize the window to test legibility at any size.</p>
-<p style="margin-top:10px"><a href="downloads.html" style="color:#D2EF15">&#8595; Download the SVG files &rarr;</a></p></header>
+<header><h1>JR Design Portfolio — diagram files</h1>
+<p>Download the source SVGs. Each is a square 1200&times;1200 vector — scales to any size with no quality loss. Each chapter comes in two styles: a dark line version and a pale mass version.</p>
+<a class="all" href="roberts-diagrams-svg.zip" download>&#8595;&nbsp; Download all (.zip)</a>
+</header>
 <div class="grid"><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
@@ -83,7 +90,7 @@
 </g>
 <circle cx="600.00" cy="393.00" r="8.00" fill="#1A1A18"/>
 <circle cx="600.00" cy="393.00" r="5.50" fill="#D2EF15"/>
-</svg></div><figcaption>D01 · Information Architecture<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D01 · Information Architecture<span>Dark / line</span></span><a class="dl" href="svg/d01-information-architecture-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g fill="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision">
   <path d="M 600.00,526.40 L 898.78,698.90" stroke="#7B7976" stroke-width="2.60" stroke-opacity="0.32"/>
@@ -151,7 +158,7 @@
 </g>
 <circle cx="600.00" cy="393.00" r="8.00" fill="#C6C4BE"/>
 <circle cx="600.00" cy="393.00" r="5.50" fill="#D2EF15"/>
-</svg></div><figcaption>D01 · Information Architecture<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D01 · Information Architecture<span>Pale / mass</span></span><a class="dl" href="svg/d01-information-architecture-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D02 · Motion Design · "Onion-Skin Bounce Arc" · Family A (Dark Technical)
      Brief: briefs/d02-motion-design.md · Lock: style-lock-dark-technical.md (LOCKED 2026-06-07)
      Tokens: ground #1A1A18+grain · line #C9C9C4 · dim #7A7A74 · stroke 2 · NO ACCENT (set budget).
@@ -188,7 +195,7 @@
     <circle cx="781" cy="699" r="12"/>
   </g>
   </g>
-</svg></div><figcaption>D02 · Motion Design<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D02 · Motion Design<span>Dark / line</span></span><a class="dl" href="svg/d02-motion-design-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!--     AMENDED 2026-06-07 (mono+lime): all colour hues removed by user decision — neutral grey system. 
  D02 · Motion Design · "Onion-Skin Bounce Arc" · Family B (Muted Tonal, warm grey slot 2)
      Brief: briefs/d02-motion-design.md · Lock: style-lock-muted-tonal.md (LOCKED 2026-06-07)
@@ -221,7 +228,7 @@
     <circle cx="781" cy="699" r="26"/>
   </g>
   </g>
-</svg></div><figcaption>D02 · Motion Design<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D02 · Motion Design<span>Pale / mass</span></span><a class="dl" href="svg/d02-motion-design-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
   <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
   <rect width="1200" height="1200" fill="#1A1A18"/>
   <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -306,7 +313,7 @@
   </g>
   <circle cx="560" cy="632" r="15" fill="none" stroke="#C9C9C4" stroke-width="2"/>
   <circle cx="560" cy="632" r="9" fill="#D2EF15"/>
-</svg></div><figcaption>D03 · UX Design<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D03 · UX Design<span>Dark / line</span></span><a class="dl" href="svg/d03-ux-design-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D03 · UX Design · Family B (MASS) FINAL — tapered woven constellation, PALE.
      AM-6 (2026-06-11): Family B reverts to pale ground #C6C4BE + darker #7B7976
      masses on a soft translucent register (D02 lineage); tapered strands shared
@@ -392,7 +399,7 @@
   </g>
   <circle cx="560" cy="632" r="15" fill="#C6C4BE"/>
   <circle cx="560" cy="632" r="9" fill="#D2EF15"/>
-</svg></div><figcaption>D03 · UX Design<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D03 · UX Design<span>Pale / mass</span></span><a class="dl" href="svg/d03-ux-design-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -463,7 +470,7 @@
 <circle cx="286.00" cy="484.00" r="4.20" fill="#b6b8bb"/>
 <circle cx="401.20" cy="662.99" r="11.50" fill="#1A1A18"/>
 <circle cx="401.20" cy="662.99" r="9.00" fill="#D2EF15"/>
-</svg></div><figcaption>D04 · Web Development<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D04 · Web Development<span>Dark / line</span></span><a class="dl" href="svg/d04-web-development-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g stroke="#7B7976" stroke-width="1.2" fill="none" stroke-dasharray="4 7" stroke-opacity="0.30" stroke-linecap="butt">
   <line x1="238.0" y1="852.0" x2="720.0" y2="772.5"/>
@@ -536,7 +543,7 @@
 </g>
 <circle cx="401.2" cy="663.0" r="15" fill="#C6C4BE"/>
 <circle cx="401.2" cy="663.0" r="9.0" fill="#D2EF15"/>
-</svg></div><figcaption>D04 · Web Development<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D04 · Web Development<span>Pale / mass</span></span><a class="dl" href="svg/d04-web-development-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -608,7 +615,7 @@
 <circle cx="600.00" cy="800.00" r="5.60" fill="#ededeb"/>
 <circle cx="600.00" cy="840.00" r="12.00" fill="#1A1A18"/>
 <circle cx="600.00" cy="840.00" r="9.50" fill="#D2EF15"/>
-</svg></div><figcaption>D05 · Web Conversion<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D05 · Web Conversion<span>Dark / line</span></span><a class="dl" href="svg/d05-web-conversion-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g stroke="#7B7976" stroke-opacity="0.36" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <ellipse cx="600.0" cy="420.8" rx="259.2" ry="116.6"/>
@@ -694,7 +701,7 @@
 </g>
 <circle cx="600.0" cy="840" r="15" fill="#C6C4BE"/>
 <circle cx="600.0" cy="840" r="9.5" fill="#D2EF15"/>
-</svg></div><figcaption>D05 · Web Conversion<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D05 · Web Conversion<span>Pale / mass</span></span><a class="dl" href="svg/d05-web-conversion-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D06 · Branding · "The Branding Iron Mark" · Family A (Dark Technical) · glyph G1
      Brief: briefs/d06-branding.md · Post-AM-1 mono+lime · Locks LOCKED 2026-06-07
      Outer circle r350 hairline · 4 crop ticks 45° r358-390 · impression rings r115/r150 dim
@@ -708,7 +715,7 @@
     <circle cx="600" cy="600" r="115"/><circle cx="600" cy="600" r="150"/>
   </g>
   <g fill="#D2EF15"><path d="M600,530 A70,70 0 0 0 600,670 Z"/><path d="M612,535 L678,600 L612,665 Z"/></g>
-</svg></div><figcaption>D06 · Branding<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D06 · Branding<span>Dark / line</span></span><a class="dl" href="svg/d06-branding-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <!-- D06 · Branding · Family B (Muted Tonal, mono per AM-1) · glyph G1
      ground #C6C4BE · lines #7B7976 4px · glyph LIME. Brief: briefs/d06-branding.md -->
   <rect width="1200" height="1200" fill="#C6C4BE"/>
@@ -718,7 +725,7 @@
     <circle cx="600" cy="600" r="115"/><circle cx="600" cy="600" r="150"/>
   </g>
   <g fill="#D2EF15"><path d="M600,530 A70,70 0 0 0 600,670 Z"/><path d="M612,535 L678,600 L612,665 Z"/></g>
-</svg></div><figcaption>D06 · Branding<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter><pattern id="pX" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="2.00" cy="2.00" r="1.05" fill="#cfd1d6" fill-opacity="0.62"/></pattern><pattern id="pA" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.50" cy="2.50" r="1.05" fill="#cfd1d6" fill-opacity="0.55"/></pattern><pattern id="pB" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4.00" cy="4.00" r="1.0" fill="#cfd1d6" fill-opacity="0.42"/></pattern><pattern id="pC" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6.00" cy="6.00" r="0.95" fill="#cfd1d6" fill-opacity="0.3"/></pattern><pattern id="pE" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8.00" cy="8.00" r="0.9" fill="#cfd1d6" fill-opacity="0.22"/></pattern></defs><rect width="1200" height="1200" fill="#1A1A18"/><rect width="1200" height="1200" filter="url(#grain)"/><g stroke="#868990" stroke-width="0.7" stroke-opacity="0.07" stroke-linecap="butt"><line x1="250" y1="235" x2="250" y2="965"/><line x1="367" y1="235" x2="367" y2="965"/><line x1="483" y1="235" x2="483" y2="965"/><line x1="600" y1="235" x2="600" y2="965"/><line x1="717" y1="235" x2="717" y2="965"/><line x1="833" y1="235" x2="833" y2="965"/><line x1="950" y1="235" x2="950" y2="965"/></g><rect x="250" y="235" width="700" height="730" fill="#cfd1d6" fill-opacity="0.025" stroke="#868990" stroke-width="1.0" stroke-opacity="0.26" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="285" y="272" width="455" height="52" fill="#cfd1d6" fill-opacity="0.05" stroke="#868990" stroke-width="1.0" stroke-opacity="0.34" stroke-linejoin="miter" stroke-miterlimit="4"/><line x1="790" y1="290" x2="910" y2="290" stroke="#868990" stroke-width="2.0" stroke-opacity="0.45" stroke-linecap="butt"/><line x1="790" y1="306" x2="885" y2="306" stroke="#868990" stroke-width="2.0" stroke-opacity="0.45" stroke-linecap="butt"/><rect x="287" y="358" width="466" height="176" fill="url(#pB)"/><rect x="285" y="356" width="470" height="180" fill="none" stroke="#e8e8ea" stroke-width="1.3" stroke-opacity="0.85" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="217" y="472" width="96" height="326" fill="url(#pC)"/><rect x="215" y="470" width="100" height="330" fill="#cfd1d6" fill-opacity="0.05" stroke="#868990" stroke-width="1.0" stroke-opacity="0.3" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="400" y="566" width="150" height="150" fill="none" stroke="#868990" stroke-width="1.1" stroke-opacity="0.55" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="572" y="568" width="181" height="146" fill="url(#pC)"/><rect x="570" y="566" width="185" height="150" fill="none" stroke="#868990" stroke-width="1.1" stroke-opacity="0.55" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><line x1="400" y1="760" x2="750" y2="760" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="777" x2="750" y2="777" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="794" x2="720" y2="794" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="811" x2="690" y2="811" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="828" x2="610" y2="828" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><rect x="600" y="212" width="165" height="520" fill="#cfd1d6" fill-opacity="0.05" stroke="#868990" stroke-width="1.0" stroke-opacity="0.22" stroke-linejoin="miter" stroke-miterlimit="4"/><circle cx="748" cy="572" r="5" fill="#D2EF15"/></svg></div><figcaption>D07 · UI Design<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><pattern id="pB" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4.00" cy="4.00" r="1.05" fill="#7B7976" fill-opacity="0.52"/></pattern><pattern id="pC" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6.00" cy="6.00" r="1.0" fill="#7B7976" fill-opacity="0.42"/></pattern></defs><rect width="1200" height="1200" fill="#C6C4BE"/><g stroke="#7B7976" stroke-width="0.7" stroke-opacity="0.13" stroke-linecap="butt"><line x1="250" y1="235" x2="250" y2="965"/><line x1="367" y1="235" x2="367" y2="965"/><line x1="483" y1="235" x2="483" y2="965"/><line x1="600" y1="235" x2="600" y2="965"/><line x1="717" y1="235" x2="717" y2="965"/><line x1="833" y1="235" x2="833" y2="965"/><line x1="950" y1="235" x2="950" y2="965"/></g><rect x="250" y="235" width="700" height="730" fill="#7B7976" fill-opacity="0.04" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.32" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="285" y="272" width="455" height="52" fill="#7B7976" fill-opacity="0.18" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.34" stroke-linejoin="miter" stroke-miterlimit="4"/><line x1="790" y1="290" x2="910" y2="290" stroke="#7B7976" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="butt"/><line x1="790" y1="306" x2="885" y2="306" stroke="#7B7976" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="butt"/><rect x="287" y="358" width="466" height="176" fill="url(#pB)"/><rect x="285" y="356" width="470" height="180" fill="none" stroke="#7B7976" stroke-width="1.4" stroke-opacity="0.6" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="217" y="472" width="96" height="326" fill="url(#pC)"/><rect x="215" y="470" width="100" height="330" fill="#7B7976" fill-opacity="0.1" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.3" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="400" y="566" width="150" height="150" fill="none" stroke="#7B7976" stroke-width="1.2" stroke-opacity="0.5" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="572" y="568" width="181" height="146" fill="url(#pC)"/><rect x="570" y="566" width="185" height="150" fill="none" stroke="#7B7976" stroke-width="1.2" stroke-opacity="0.5" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><line x1="400" y1="760" x2="750" y2="760" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="777" x2="750" y2="777" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="794" x2="720" y2="794" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="811" x2="690" y2="811" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="828" x2="610" y2="828" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><rect x="600" y="212" width="165" height="520" fill="#7B7976" fill-opacity="0.08" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.22" stroke-linejoin="miter" stroke-miterlimit="4"/><circle cx="748" cy="572" r="7.5" fill="#C6C4BE"/><circle cx="748" cy="572" r="5" fill="#D2EF15"/></svg></div><figcaption>D07 · UI Design<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D06 · Branding<span>Pale / mass</span></span><a class="dl" href="svg/d06-branding-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter><pattern id="pX" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="2.00" cy="2.00" r="1.05" fill="#cfd1d6" fill-opacity="0.62"/></pattern><pattern id="pA" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.50" cy="2.50" r="1.05" fill="#cfd1d6" fill-opacity="0.55"/></pattern><pattern id="pB" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4.00" cy="4.00" r="1.0" fill="#cfd1d6" fill-opacity="0.42"/></pattern><pattern id="pC" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6.00" cy="6.00" r="0.95" fill="#cfd1d6" fill-opacity="0.3"/></pattern><pattern id="pE" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8.00" cy="8.00" r="0.9" fill="#cfd1d6" fill-opacity="0.22"/></pattern></defs><rect width="1200" height="1200" fill="#1A1A18"/><rect width="1200" height="1200" filter="url(#grain)"/><g stroke="#868990" stroke-width="0.7" stroke-opacity="0.07" stroke-linecap="butt"><line x1="250" y1="235" x2="250" y2="965"/><line x1="367" y1="235" x2="367" y2="965"/><line x1="483" y1="235" x2="483" y2="965"/><line x1="600" y1="235" x2="600" y2="965"/><line x1="717" y1="235" x2="717" y2="965"/><line x1="833" y1="235" x2="833" y2="965"/><line x1="950" y1="235" x2="950" y2="965"/></g><rect x="250" y="235" width="700" height="730" fill="#cfd1d6" fill-opacity="0.025" stroke="#868990" stroke-width="1.0" stroke-opacity="0.26" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="285" y="272" width="455" height="52" fill="#cfd1d6" fill-opacity="0.05" stroke="#868990" stroke-width="1.0" stroke-opacity="0.34" stroke-linejoin="miter" stroke-miterlimit="4"/><line x1="790" y1="290" x2="910" y2="290" stroke="#868990" stroke-width="2.0" stroke-opacity="0.45" stroke-linecap="butt"/><line x1="790" y1="306" x2="885" y2="306" stroke="#868990" stroke-width="2.0" stroke-opacity="0.45" stroke-linecap="butt"/><rect x="287" y="358" width="466" height="176" fill="url(#pB)"/><rect x="285" y="356" width="470" height="180" fill="none" stroke="#e8e8ea" stroke-width="1.3" stroke-opacity="0.85" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="217" y="472" width="96" height="326" fill="url(#pC)"/><rect x="215" y="470" width="100" height="330" fill="#cfd1d6" fill-opacity="0.05" stroke="#868990" stroke-width="1.0" stroke-opacity="0.3" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="400" y="566" width="150" height="150" fill="none" stroke="#868990" stroke-width="1.1" stroke-opacity="0.55" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="572" y="568" width="181" height="146" fill="url(#pC)"/><rect x="570" y="566" width="185" height="150" fill="none" stroke="#868990" stroke-width="1.1" stroke-opacity="0.55" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><line x1="400" y1="760" x2="750" y2="760" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="777" x2="750" y2="777" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="794" x2="720" y2="794" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="811" x2="690" y2="811" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="828" x2="610" y2="828" stroke="#868990" stroke-width="1.6" stroke-opacity="0.42" stroke-linecap="butt"/><rect x="600" y="212" width="165" height="520" fill="#cfd1d6" fill-opacity="0.05" stroke="#868990" stroke-width="1.0" stroke-opacity="0.22" stroke-linejoin="miter" stroke-miterlimit="4"/><circle cx="748" cy="572" r="5" fill="#D2EF15"/></svg></div><figcaption><span class="meta">D07 · UI Design<span>Dark / line</span></span><a class="dl" href="svg/d07-ui-design-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><pattern id="pB" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4.00" cy="4.00" r="1.05" fill="#7B7976" fill-opacity="0.52"/></pattern><pattern id="pC" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="6.00" cy="6.00" r="1.0" fill="#7B7976" fill-opacity="0.42"/></pattern></defs><rect width="1200" height="1200" fill="#C6C4BE"/><g stroke="#7B7976" stroke-width="0.7" stroke-opacity="0.13" stroke-linecap="butt"><line x1="250" y1="235" x2="250" y2="965"/><line x1="367" y1="235" x2="367" y2="965"/><line x1="483" y1="235" x2="483" y2="965"/><line x1="600" y1="235" x2="600" y2="965"/><line x1="717" y1="235" x2="717" y2="965"/><line x1="833" y1="235" x2="833" y2="965"/><line x1="950" y1="235" x2="950" y2="965"/></g><rect x="250" y="235" width="700" height="730" fill="#7B7976" fill-opacity="0.04" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.32" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="285" y="272" width="455" height="52" fill="#7B7976" fill-opacity="0.18" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.34" stroke-linejoin="miter" stroke-miterlimit="4"/><line x1="790" y1="290" x2="910" y2="290" stroke="#7B7976" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="butt"/><line x1="790" y1="306" x2="885" y2="306" stroke="#7B7976" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="butt"/><rect x="287" y="358" width="466" height="176" fill="url(#pB)"/><rect x="285" y="356" width="470" height="180" fill="none" stroke="#7B7976" stroke-width="1.4" stroke-opacity="0.6" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="217" y="472" width="96" height="326" fill="url(#pC)"/><rect x="215" y="470" width="100" height="330" fill="#7B7976" fill-opacity="0.1" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.3" stroke-linejoin="miter" stroke-miterlimit="4"/><rect x="400" y="566" width="150" height="150" fill="none" stroke="#7B7976" stroke-width="1.2" stroke-opacity="0.5" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><rect x="572" y="568" width="181" height="146" fill="url(#pC)"/><rect x="570" y="566" width="185" height="150" fill="none" stroke="#7B7976" stroke-width="1.2" stroke-opacity="0.5" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/><line x1="400" y1="760" x2="750" y2="760" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="777" x2="750" y2="777" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="794" x2="720" y2="794" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="811" x2="690" y2="811" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><line x1="400" y1="828" x2="610" y2="828" stroke="#7B7976" stroke-width="1.7" stroke-opacity="0.42" stroke-linecap="butt"/><rect x="600" y="212" width="165" height="520" fill="#7B7976" fill-opacity="0.08" stroke="#7B7976" stroke-width="1.0" stroke-opacity="0.22" stroke-linejoin="miter" stroke-miterlimit="4"/><circle cx="748" cy="572" r="7.5" fill="#C6C4BE"/><circle cx="748" cy="572" r="5" fill="#D2EF15"/></svg></div><figcaption><span class="meta">D07 · UI Design<span>Pale / mass</span></span><a class="dl" href="svg/d07-ui-design-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -1352,7 +1359,7 @@
 <circle cx="279.57" cy="785.00" r="33.00"/>
 <circle cx="920.43" cy="785.00" r="33.00"/>
 </g>
-</svg></div><figcaption>D08 · Business Strategy<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D08 · Business Strategy<span>Dark / line</span></span><a class="dl" href="svg/d08-business-strategy-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g stroke="#7B7976" stroke-opacity="0.5" stroke-width="2.60" stroke-linecap="butt" stroke-linejoin="miter" fill="none" shape-rendering="geometricPrecision">
   <line x1="580.00" y1="264.64" x2="299.57" y2="750.36"/>
@@ -1984,7 +1991,7 @@
   <circle cx="279.57" cy="785.00" r="33.00"/>
   <circle cx="920.43" cy="785.00" r="33.00"/>
 </g>
-</svg></div><figcaption>D08 · Business Strategy<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D08 · Business Strategy<span>Pale / mass</span></span><a class="dl" href="svg/d08-business-strategy-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -2465,7 +2472,7 @@
 <line x1="482.15" y1="462.56" x2="575.13" y2="516.25" stroke="#868990" stroke-width="2.50" stroke-opacity="0.64" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" shape-rendering="geometricPrecision"/>
 <circle cx="725.66" cy="530.15" r="8.0" fill="#1A1A18"/>
 <circle cx="725.66" cy="530.15" r="5.5" fill="#D2EF15"/>
-</svg></div><figcaption>D09 · Web Copywriting<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D09 · Web Copywriting<span>Dark / line</span></span><a class="dl" href="svg/d09-web-copywriting-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <path d="M 551.22,556.07 L 824.39,713.78 L 473.17,916.56 L 200.00,758.84 Z" fill="#7B7976" fill-opacity="0.16" shape-rendering="geometricPrecision"/>
 <line x1="464.59" y1="643.93" x2="654.60" y2="753.64" stroke="#7B7976" stroke-width="2.40" stroke-opacity="0.34" stroke-linecap="butt" shape-rendering="geometricPrecision"/>
@@ -2944,7 +2951,7 @@
 <line x1="482.15" y1="462.56" x2="575.13" y2="516.25" stroke="#7B7976" stroke-width="3.00" stroke-opacity="0.58" stroke-linecap="butt" shape-rendering="geometricPrecision"/>
 <circle cx="725.66" cy="530.15" r="8.0" fill="#C6C4BE"/>
 <circle cx="725.66" cy="530.15" r="5.5" fill="#D2EF15"/>
-</svg></div><figcaption>D09 · Web Copywriting<span>B</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D09 · Web Copywriting<span>Pale / mass</span></span><a class="dl" href="svg/d09-web-copywriting-b.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer></filter></defs>
 <rect width="1200" height="1200" fill="#1A1A18"/>
 <rect width="1200" height="1200" filter="url(#grain)"/>
@@ -5375,7 +5382,7 @@
 </g>
 <circle cx="924.1" cy="599.0" r="7.5" fill="#1A1A18"/>
 <circle cx="924.1" cy="599.0" r="5.0" fill="#D2EF15"/>
-</svg></div><figcaption>D11 · Designing with AI<span>A</span></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+</svg></div><figcaption><span class="meta">D11 · Designing with AI<span>Dark / line</span></span><a class="dl" href="svg/d11-designing-with-ai-a.svg" download>&#8595; SVG</a></figcaption></figure><figure><div class="fig"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
 <rect width="1200" height="1200" fill="#C6C4BE"/>
 <g fill="none" stroke="#7B7976" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" opacity="0.5">
 <line x1="790.0" y1="464.3" x2="786.0" y2="468.8"/>
@@ -7897,5 +7904,5 @@
 </g>
 <circle cx="924.1" cy="599.0" r="7.5" fill="#C6C4BE"/>
 <circle cx="924.1" cy="599.0" r="5.0" fill="#D2EF15"/>
-</svg></div><figcaption>D11 · Designing with AI<span>B</span></figcaption></figure></div>
+</svg></div><figcaption><span class="meta">D11 · Designing with AI<span>Pale / mass</span></span><a class="dl" href="svg/d11-designing-with-ai-b.svg" download>&#8595; SVG</a></figcaption></figure></div>
 </body></html>

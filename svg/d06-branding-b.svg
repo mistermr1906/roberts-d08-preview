@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<!-- D06 · Branding · Family B (Muted Tonal, mono per AM-1) · glyph G1
+     ground #C6C4BE · lines #7B7976 4px · glyph LIME. Brief: briefs/d06-branding.md -->
+  <rect width="1200" height="1200" fill="#C6C4BE"/>
+  <circle cx="600" cy="600" r="350" stroke="#7B7976" stroke-width="4" fill="none"/>
+  <g stroke="#7B7976" stroke-width="4" stroke-linecap="round"><line x1="853" y1="853" x2="876" y2="876"/><line x1="347" y1="853" x2="324" y2="876"/><line x1="347" y1="347" x2="324" y2="324"/><line x1="853" y1="347" x2="876" y2="324"/></g>
+  <g stroke="#7B7976" stroke-width="4" fill="none" opacity="0.7">
+    <circle cx="600" cy="600" r="115"/><circle cx="600" cy="600" r="150"/>
+  </g>
+  <g fill="#D2EF15"><path d="M600,530 A70,70 0 0 0 600,670 Z"/><path d="M612,535 L678,600 L612,665 Z"/></g>
+</svg>
